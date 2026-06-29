@@ -19,12 +19,13 @@ const gustambitos = [
     imagen: "assets/images/base/3.png",
     categoria: 1
 },
+/*
 {
     id: 4,
     nombre: "Espíritu de Aire",
     imagen: "assets/images/base/4.png",
     categoria: 1
-},
+}, */
 {
     id: 5,
     nombre: "Espíritu Pez",
@@ -127,12 +128,12 @@ const gustambitos = [
     imagen: "assets/images/gold/3.png",
     categoria: 2
 },
-{
+/*{
     id: 22,
     nombre: "Espíritu de Aire Dorado",
     imagen: "assets/images/gold/4.png",
     categoria: 2
-},
+},*/
 {
     id: 23,
     nombre: "Espíritu Pez Dorado",
@@ -229,12 +230,12 @@ const gustambitos = [
     imagen: "assets/images/gummy/3.png",
     categoria: 3
 },
-{
+/*{
     id: 39,
     nombre: "Espíritu de Aire Golosina",
     imagen: "assets/images/gummy/4.png",
     categoria: 3
-},
+},*/
 {
     id: 40,
     nombre: "Espíritu Pez Golosina",
@@ -331,12 +332,12 @@ const gustambitos = [
     imagen: "assets/images/galaxy/3.png",
     categoria: 4
 },
-{
+/*{
     id: 56,
     nombre: "Espíritu de Aire Galaxia",
     imagen: "assets/images/galaxy/4.png",
     categoria: 4
-},
+},*/
 {
     id: 57,
     nombre: "Espíritu Pez Galaxia",
