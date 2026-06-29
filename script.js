@@ -418,7 +418,7 @@ const gustambitos = [
 
 
 {   id: 8,
-    nombre: "Gustambito 8",
+    nombre: "Proximamente",
     imagen: "assets/images/ejemplo.png",
     categoria: 5
 }
