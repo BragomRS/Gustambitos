@@ -211,24 +211,212 @@ const gustambitos = [
     imagen: "assets/images/gold/17.png",
     categoria: 2
 },
+   {
+    id: 36,
+    nombre: "Espíritu de Agua Golosina",
+    imagen: "assets/images/gummy/1.png",
+    categoria: 3
+},
+{
+    id: 37,
+    nombre: "Espíritu de Tierra Golosina",
+    imagen: "assets/images/gummy/2.png",
+    categoria: 3
+},
+{
+    id: 38,
+    nombre: "Espíritu de Fuego Golosina",
+    imagen: "assets/images/gummy/3.png",
+    categoria: 3
+},
+{
+    id: 39,
+    nombre: "Espíritu de Aire Golosina",
+    imagen: "assets/images/gummy/4.png",
+    categoria: 3
+},
+{
+    id: 40,
+    nombre: "Espíritu Pez Golosina",
+    imagen: "assets/images/gummy/5.png",
+    categoria: 3
+},
+{
+    id: 41,
+    nombre: "Espíritu Pato Golosina",
+    imagen: "assets/images/gummy/6.png",
+    categoria: 3
+},
+{
+    id: 42,
+    nombre: "Espíritu Demonio Golosina",
+    imagen: "assets/images/gummy/7.png",
+    categoria: 3
+},
+{
+    id: 43,
+    nombre: "Espíritu Fantasma Golosina",
+    imagen: "assets/images/gummy/8.png",
+    categoria: 3
+},
+{
+    id: 44,
+    nombre: "Espíritu Rey Golosina",
+    imagen: "assets/images/gummy/9.png",
+    categoria: 3
+},
+{
+    id: 45,
+    nombre: "Espíritu Atacante Golosina",
+    imagen: "assets/images/gummy/10.png",
+    categoria: 3
+},
+{
+    id: 46,
+    nombre: "Espíritu del Aura Golosina",
+    imagen: "assets/images/gummy/11.png",
+    categoria: 3
+},
+{
+    id: 47,
+    nombre: "Espíritu Punk Golosina",
+    imagen: "assets/images/gummy/12.png",
+    categoria: 3
+},
+{
+    id: 48,
+    nombre: "Espíritu de los Sueños Golosina",
+    imagen: "assets/images/gummy/13.png",
+    categoria: 3
+},
+{
+    id: 49,
+    nombre: "Espíritu Jefe Golosina",
+    imagen: "assets/images/gummy/14.png",
+    categoria: 3
+},
+{
+    id: 50,
+    nombre: "Espíritu Siete Golosina",
+    imagen: "assets/images/gummy/15.png",
+    categoria: 3
+},
+{
+    id: 51,
+    nombre: "Espíritu del Punto Cero Golosina",
+    imagen: "assets/images/gummy/16.png",
+    categoria: 3
+},
+{
+    id: 52,
+    nombre: "Espíritu Siniestro Golosina",
+    imagen: "assets/images/gummy/17.png",
+    categoria: 3
+},
     {
-        id: 5,
-        nombre: "Gustambito 5",
-        imagen: "assets/images/ejemplo.png",
-        categoria: 3
-    },
-    {
-        id: 6,
-        nombre: "Gustambito 6",
-        imagen: "assets/images/ejemplo.png",
-        categoria: 3
-    },
-    {
-    id: 7,
-    nombre: "Gustambito 7",
-    imagen: "assets/images/ejemplo.png",
+    id: 53,
+    nombre: "Espíritu de Agua Galaxia",
+    imagen: "assets/images/galaxy/1.png",
     categoria: 4
 },
+{
+    id: 54,
+    nombre: "Espíritu de Tierra Galaxia",
+    imagen: "assets/images/galaxy/2.png",
+    categoria: 4
+},
+{
+    id: 55,
+    nombre: "Espíritu de Fuego Galaxia",
+    imagen: "assets/images/galaxy/3.png",
+    categoria: 4
+},
+{
+    id: 56,
+    nombre: "Espíritu de Aire Galaxia",
+    imagen: "assets/images/galaxy/4.png",
+    categoria: 4
+},
+{
+    id: 57,
+    nombre: "Espíritu Pez Galaxia",
+    imagen: "assets/images/galaxy/5.png",
+    categoria: 4
+},
+{
+    id: 58,
+    nombre: "Espíritu Pato Galaxia",
+    imagen: "assets/images/galaxy/6.png",
+    categoria: 4
+},
+{
+    id: 59,
+    nombre: "Espíritu Demonio Galaxia",
+    imagen: "assets/images/galaxy/7.png",
+    categoria: 4
+},
+{
+    id: 60,
+    nombre: "Espíritu Fantasma Galaxia",
+    imagen: "assets/images/galaxy/8.png",
+    categoria: 4
+},
+{
+    id: 61,
+    nombre: "Espíritu Rey Galaxia",
+    imagen: "assets/images/galaxy/9.png",
+    categoria: 4
+},
+{
+    id: 62,
+    nombre: "Espíritu Atacante Galaxia",
+    imagen: "assets/images/galaxy/10.png",
+    categoria: 4
+},
+{
+    id: 63,
+    nombre: "Espíritu del Aura Galaxia",
+    imagen: "assets/images/galaxy/11.png",
+    categoria: 4
+},
+{
+    id: 64,
+    nombre: "Espíritu Punk Galaxia",
+    imagen: "assets/images/galaxy/12.png",
+    categoria: 4
+},
+{
+    id: 65,
+    nombre: "Espíritu de los Sueños Galaxia",
+    imagen: "assets/images/galaxy/13.png",
+    categoria: 4
+},
+{
+    id: 66,
+    nombre: "Espíritu Jefe Galaxia",
+    imagen: "assets/images/galaxy/14.png",
+    categoria: 4
+},
+{
+    id: 67,
+    nombre: "Espíritu Siete Galaxia",
+    imagen: "assets/images/galaxy/15.png",
+    categoria: 4
+},
+{
+    id: 68,
+    nombre: "Espíritu del Punto Cero Galaxia",
+    imagen: "assets/images/galaxy/16.png",
+    categoria: 4
+},
+{
+    id: 69,
+    nombre: "Espíritu Siniestro Galaxia",
+    imagen: "assets/images/galaxy/17.png",
+    categoria: 4
+},
+
+
 {   id: 8,
     nombre: "Gustambito 8",
     imagen: "assets/images/ejemplo.png",
