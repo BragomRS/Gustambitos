@@ -50,6 +50,25 @@ const gustambitos = [
 }
 ];
 
+
+function actualizarProgreso() {
+
+    const total = gustambitos.length;
+    const conseguidos = seleccionados.length;
+
+    const porcentaje = Math.round((conseguidos / total) * 100);
+
+    document.getElementById("contador").textContent =
+        `${conseguidos} / ${total}`;
+
+    document.getElementById("porcentaje").textContent =
+        `${porcentaje}%`;
+
+    document.getElementById("barra-progreso").style.width =
+        `${porcentaje}%`;
+
+}
+
 // Recorremos todos los Gustambitos
 gustambitos.forEach(gustambito => {
 
@@ -93,6 +112,7 @@ tarjeta.addEventListener("click", () => {
     }
 
     localStorage.setItem("gustambitos", JSON.stringify(seleccionados));
+    actualizarProgreso();
 
 });
 
@@ -100,3 +120,6 @@ tarjeta.addEventListener("click", () => {
     contenedor.appendChild(tarjeta);
 
 });
+
+// Actualizar el progreso al cargar la página
+actualizarProgreso();
