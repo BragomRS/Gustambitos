@@ -75,7 +75,7 @@ const gustambitos = [
 },
 {
     id: 13,
-    nombre: "Espíritu de los Sueños",
+    nombre: "Espíritu de los Sueños Normal",
     imagen: "assets/images/base/13.png",
     categoria: 1
 },
@@ -93,7 +93,7 @@ const gustambitos = [
 },
 {
     id: 16,
-    nombre: "Espíritu del Punto Cero",
+    nombre: "Espíritu del Punto Cero Normal",
     imagen: "assets/images/base/16.png",
     categoria: 1
 },
@@ -201,13 +201,13 @@ const gustambitos = [
 },
 {
     id: 34,
-    nombre: "Espíritu Siniestro Dorado",
+    nombre: "Espíritu del Punto Cero Dorado",
     imagen: "assets/images/gold/16.png",
     categoria: 2
 },
 {
     id: 35,
-    nombre: "Espíritu del Punto Cero Dorado",
+    nombre: "Espíritu Siniestro Dorado",
     imagen: "assets/images/gold/17.png",
     categoria: 2
 },
