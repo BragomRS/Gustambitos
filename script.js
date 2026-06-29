@@ -109,17 +109,106 @@ const gustambitos = [
     imagen: "assets/images/base/18.png",
     categoria: 1
 },
-
 {
-    id: 3,
-    nombre: "Gustambito 3",
-    imagen: "assets/images/ejemplo.png",
+    id: 19,
+    nombre: "Espíritu de Agua Dorado",
+    imagen: "assets/images/gold/1.png",
     categoria: 2
 },
 {
-    id: 4,
-    nombre: "Gustambito 4",
-    imagen: "assets/images/ejemplo.png",
+    id: 20,
+    nombre: "Espíritu de Tierra Dorado",
+    imagen: "assets/images/gold/2.png",
+    categoria: 2
+},
+{
+    id: 21,
+    nombre: "Espíritu de Fuego Dorado",
+    imagen: "assets/images/gold/3.png",
+    categoria: 2
+},
+{
+    id: 22,
+    nombre: "Espíritu de Aire Dorado",
+    imagen: "assets/images/gold/4.png",
+    categoria: 2
+},
+{
+    id: 23,
+    nombre: "Espíritu Pez Dorado",
+    imagen: "assets/images/gold/5.png",
+    categoria: 2
+},
+{
+    id: 24,
+    nombre: "Espíritu Pato Dorado",
+    imagen: "assets/images/gold/6.png",
+    categoria: 2
+},
+{
+    id: 25,
+    nombre: "Espíritu Demonio Dorado",
+    imagen: "assets/images/gold/7.png",
+    categoria: 2
+},
+{
+    id: 26,
+    nombre: "Espíritu Fantasma Dorado",
+    imagen: "assets/images/gold/8.png",
+    categoria: 2
+},
+{
+    id: 27,
+    nombre: "Espíritu Rey Dorado",
+    imagen: "assets/images/gold/9.png",
+    categoria: 2
+},
+{
+    id: 28,
+    nombre: "Espíritu Atacante Dorado",
+    imagen: "assets/images/gold/10.png",
+    categoria: 2
+},
+{
+    id: 29,
+    nombre: "Espíritu del Aura Dorado",
+    imagen: "assets/images/gold/11.png",
+    categoria: 2
+},
+{
+    id: 30,
+    nombre: "Espíritu Punk Dorado",
+    imagen: "assets/images/gold/12.png",
+    categoria: 2
+},
+{
+    id: 31,
+    nombre: "Espíritu de los Sueños Dorado",
+    imagen: "assets/images/gold/13.png",
+    categoria: 2
+},
+{
+    id: 32,
+    nombre: "Espíritu Jefe Dorado",
+    imagen: "assets/images/gold/14.png",
+    categoria: 2
+},
+{
+    id: 33,
+    nombre: "Espíritu Siete Dorado",
+    imagen: "assets/images/gold/15.png",
+    categoria: 2
+},
+{
+    id: 34,
+    nombre: "Espíritu Siniestro Dorado",
+    imagen: "assets/images/gold/16.png",
+    categoria: 2
+},
+{
+    id: 35,
+    nombre: "Espíritu del Punto Cero Dorado",
+    imagen: "assets/images/gold/17.png",
     categoria: 2
 },
     {
