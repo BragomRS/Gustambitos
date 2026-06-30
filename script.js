@@ -15,7 +15,7 @@ const gustambitos = [
 },
 {
     id: 36,
-    nombre: "Espíritu de Agua Golosina",
+    nombre: "Espíritu de Agua de Golosina",
     imagen: "assets/images/gummy/1.png",
     categoria: 3
 },
@@ -40,7 +40,7 @@ const gustambitos = [
 },
 {
     id: 37,
-    nombre: "Espíritu de Tierra Golosina",
+    nombre: "Espíritu de Tierra de Golosina",
     imagen: "assets/images/gummy/2.png",
     categoria: 3
 },
@@ -65,7 +65,7 @@ const gustambitos = [
 },
 {
     id: 38,
-    nombre: "Espíritu de Fuego Golosina",
+    nombre: "Espíritu de Fuego de Golosina",
     imagen: "assets/images/gummy/3.png",
     categoria: 3
 },
@@ -75,33 +75,6 @@ const gustambitos = [
     imagen: "assets/images/galaxy/3.png",
     categoria: 4
 },
-
-/*
-{
-    id: 4,
-    nombre: "Espíritu de Aire",
-    imagen: "assets/images/base/4.png",
-    categoria: 1
-},
-{
-    id: 22,
-    nombre: "Espíritu de Aire Dorado",
-    imagen: "assets/images/gold/4.png",
-    categoria: 2
-},
-{
-    id: 39,
-    nombre: "Espíritu de Aire Golosina",
-    imagen: "assets/images/gummy/4.png",
-    categoria: 3
-},
-{
-    id: 56,
-    nombre: "Espíritu de Aire Galáctico",
-    imagen: "assets/images/galaxy/4.png",
-    categoria: 4
-},
-*/
 
 {
     id: 6,
@@ -117,7 +90,7 @@ const gustambitos = [
 },
 {
     id: 41,
-    nombre: "Espíritu Patito Golosina",
+    nombre: "Espíritu Patito de Golosina",
     imagen: "assets/images/gummy/6.png",
     categoria: 3
 },
@@ -142,7 +115,7 @@ const gustambitos = [
 },
 {
     id: 43,
-    nombre: "Espíritu Fantasma Golosina",
+    nombre: "Espíritu Fantasma de Golosina",
     imagen: "assets/images/gummy/8.png",
     categoria: 3
 },
@@ -167,7 +140,7 @@ const gustambitos = [
 },
 {
     id: 48,
-    nombre: "Espíritu Dormilón Golosina",
+    nombre: "Espíritu Dormilón de Golosina",
     imagen: "assets/images/gummy/13.png",
     categoria: 3
 },
@@ -192,7 +165,7 @@ const gustambitos = [
 },
 {
     id: 42,
-    nombre: "Espíritu Demoníaco Golosina",
+    nombre: "Espíritu Demoníaco de Golosina",
     imagen: "assets/images/gummy/7.png",
     categoria: 3
 },
@@ -217,7 +190,7 @@ const gustambitos = [
 },
 {
     id: 47,
-    nombre: "Espíritu Punk Golosina",
+    nombre: "Espíritu Punk de Golosina",
     imagen: "assets/images/gummy/12.png",
     categoria: 3
 },
@@ -242,7 +215,7 @@ const gustambitos = [
 },
 {
     id: 44,
-    nombre: "Espíritu Monarca Golosina",
+    nombre: "Espíritu Monarca de Golosina",
     imagen: "assets/images/gummy/9.png",
     categoria: 3
 },
@@ -267,7 +240,7 @@ const gustambitos = [
 },
 {
     id: 51,
-    nombre: "Espíritu del Punto Cero Golosina",
+    nombre: "Espíritu del Punto Cero de Golosina",
     imagen: "assets/images/gummy/16.png",
     categoria: 3
 },
@@ -291,7 +264,7 @@ const gustambitos = [
 },
 {
     id: 40,
-    nombre: "Espíritu Palito de Pez Golosina",
+    nombre: "Espíritu Palito de Pez de Golosina",
     imagen: "assets/images/gummy/5.png",
     categoria: 3
 },
@@ -316,7 +289,7 @@ const gustambitos = [
 },
 {
     id: 45,
-    nombre: "Espíritu Goleador Golosina",
+    nombre: "Espíritu Goleador de Golosina",
     imagen: "assets/images/gummy/10.png",
     categoria: 3
 },
@@ -341,7 +314,7 @@ const gustambitos = [
 },
 {
     id: 46,
-    nombre: "Espíritu de Aura Golosina",
+    nombre: "Espíritu de Aura de Golosina",
     imagen: "assets/images/gummy/11.png",
     categoria: 3
 },
@@ -366,7 +339,7 @@ const gustambitos = [
 },
 {
     id: 49,
-    nombre: "Espíritu Jefe Golosina",
+    nombre: "Espíritu Jefe de Golosina",
     imagen: "assets/images/gummy/14.png",
     categoria: 3
 },
@@ -401,7 +374,7 @@ const gustambitos = [
 },
 {
     id: 39,
-    nombre: "Espíritu de Aire Golosina",
+    nombre: "Espíritu de Aire de Golosina",
     imagen: "assets/images/gummy/4.png",
     categoria: 3
 },
@@ -426,7 +399,7 @@ const gustambitos = [
 },
 {
     id: 50,
-    nombre: "Espíritu de los Siete Golosina",
+    nombre: "Espíritu de los Siete de Golosina",
     imagen: "assets/images/gummy/15.png",
     categoria: 3
 },
