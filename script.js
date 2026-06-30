@@ -324,30 +324,7 @@ const gustambitos = [
     imagen: "assets/images/galaxy/11.png",
     categoria: 4
 },
-{
-    id: 17,
-    nombre: "Espíritu Siniestro",
-    imagen: "assets/images/base/17.png",
-    categoria: 1
-},
-{
-    id: 35,
-    nombre: "Espíritu Siniestro Dorado",
-    imagen: "assets/images/gold/17.png",
-    categoria: 2
-},
-{
-    id: 52,
-    nombre: "Espíritu Siniestro de Golosina",
-    imagen: "assets/images/gummy/17.png",
-    categoria: 3
-},
-{
-    id: 69,
-    nombre: "Espíritu Siniestro Galáctico",
-    imagen: "assets/images/galaxy/17.png",
-    categoria: 4
-},
+
 {
     id: 14,
     nombre: "Espíritu Jefe",
@@ -370,6 +347,31 @@ const gustambitos = [
     id: 66,
     nombre: "Espíritu Jefe Galáctico",
     imagen: "assets/images/galaxy/14.png",
+    categoria: 4
+},
+
+{
+    id: 17,
+    nombre: "Espíritu Siniestro",
+    imagen: "assets/images/base/17.png",
+    categoria: 1
+},
+{
+    id: 35,
+    nombre: "Espíritu Siniestro Dorado",
+    imagen: "assets/images/gold/17.png",
+    categoria: 2
+},
+{
+    id: 52,
+    nombre: "Espíritu Siniestro de Golosina",
+    imagen: "assets/images/gummy/17.png",
+    categoria: 3
+},
+{
+    id: 69,
+    nombre: "Espíritu Siniestro Galáctico",
+    imagen: "assets/images/galaxy/17.png",
     categoria: 4
 },
 
