@@ -86,12 +86,12 @@ const gustambitos = [
     imagen: "assets/images/base/14.png",
     categoria: 1
 },
-{
+/*{
     id: 15,
     nombre: "Espíritu Siete",
     imagen: "assets/images/base/15.png",
     categoria: 1
-},
+},*/
 {
     id: 16,
     nombre: "Espíritu del Punto Cero Normal",
@@ -194,12 +194,12 @@ const gustambitos = [
     imagen: "assets/images/gold/14.png",
     categoria: 2
 },
-{
+/*{
     id: 33,
     nombre: "Espíritu Siete Dorado",
     imagen: "assets/images/gold/15.png",
     categoria: 2
-},
+},*/
 {
     id: 34,
     nombre: "Espíritu del Punto Cero Dorado",
@@ -296,12 +296,12 @@ const gustambitos = [
     imagen: "assets/images/gummy/14.png",
     categoria: 3
 },
-{
+/*{
     id: 50,
     nombre: "Espíritu Siete Golosina",
     imagen: "assets/images/gummy/15.png",
     categoria: 3
-},
+},*/
 {
     id: 51,
     nombre: "Espíritu del Punto Cero Golosina",
@@ -398,12 +398,12 @@ const gustambitos = [
     imagen: "assets/images/galaxy/14.png",
     categoria: 4
 },
-{
+/*{
     id: 67,
     nombre: "Espíritu Siete Galaxia",
     imagen: "assets/images/galaxy/15.png",
     categoria: 4
-},
+},*/
 {
     id: 68,
     nombre: "Espíritu del Punto Cero Galaxia",
@@ -418,7 +418,7 @@ const gustambitos = [
 },
 
 
-{   id: 8,
+{   id: 999,
     nombre: "Proximamente",
     imagen: "assets/images/ejemplo.png",
     categoria: 5
