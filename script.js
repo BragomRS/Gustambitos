@@ -1,4 +1,4 @@
-const seleccionados = JSON.parse(localStorage.getItem("gustambitos")) || [];
+const estados = JSON.parse(localStorage.getItem("gustambitos")) || {};
 
 const gustambitos = [
 {
@@ -425,7 +425,9 @@ const gustambitos = [
 function actualizarProgreso() {
 
     const total = gustambitos.length;
-    const conseguidos = seleccionados.length;
+    const conseguidos = Object.values(estados)
+        .filter(estado => estado > 0)
+        .length;
 
     const porcentaje = Math.round((conseguidos / total) * 100);
 
@@ -452,37 +454,76 @@ gustambitos.forEach(gustambito => {
     tarjeta.className = "tarjeta";
 
     tarjeta.innerHTML = `
-        <img src="${gustambito.imagen}" alt="${gustambito.nombre}">
-        <p>${gustambito.nombre}</p>
-    `;
+<div class="imagen-contenedor">
 
-    // Selector del local 
-    if (seleccionados.includes(gustambito.id)) {
-        tarjeta.classList.add("activa");
-    }
+    <img
+        class="gustambito-img"
+        src="${gustambito.imagen}"
+        alt="${gustambito.nombre}"
+    >
+
+    <img
+        class="corona"
+        src="assets/images/corona.jpg"
+        alt="Corona"
+    >
+
+</div>
+
+<p>${gustambito.nombre}</p>
+`;
+
+
+// Recuperar estado guardado
+const estado = estados[gustambito.id] || 0;
+
+if (estado >= 1) {
+    tarjeta.classList.add("activa");
+}
+
+if (estado === 2) {
+    tarjeta.classList.add("coronada");
+}
 
     // Activar/desactivar y guardar en localStorage
 tarjeta.addEventListener("click", () => {
 
-    tarjeta.classList.toggle("activa");
+    // Estado actual
+    let estado = estados[gustambito.id] || 0;
 
-    if (tarjeta.classList.contains("activa")) {
+    // Cambiar al siguiente estado
+    estado++;
 
-        if (!seleccionados.includes(gustambito.id)) {
-            seleccionados.push(gustambito.id);
-        }
-
-    } else {
-
-        const indice = seleccionados.indexOf(gustambito.id);
-
-        if (indice !== -1) {
-            seleccionados.splice(indice, 1);
-        }
-
+    if (estado > 2) {
+        estado = 0;
     }
 
-    localStorage.setItem("gustambitos", JSON.stringify(seleccionados));
+    // Limpiar clases
+    tarjeta.classList.remove("activa");
+    tarjeta.classList.remove("coronada");
+
+    // Aplicar clases según el estado
+    if (estado === 1) {
+        tarjeta.classList.add("activa");
+    }
+
+    if (estado === 2) {
+        tarjeta.classList.add("activa");
+        tarjeta.classList.add("coronada");
+    }
+
+    // Guardar estado
+    if (estado === 0) {
+        delete estados[gustambito.id];
+    } else {
+        estados[gustambito.id] = estado;
+    }
+
+    localStorage.setItem(
+        "gustambitos",
+        JSON.stringify(estados)
+    );
+
     actualizarProgreso();
 
 });

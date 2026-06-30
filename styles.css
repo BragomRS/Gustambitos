@@ -73,24 +73,47 @@ body {
     border-color: #666;
 }
 
+.imagen-contenedor{
+    position:relative;
+}
 
 
-.tarjeta img {
+.corona{
+    position:absolute;
+    width:28px;
+    left:58%;
+    top:-5px;
+    transform:translateX(-50%);
+
+    opacity:0;
+
+    z-index:999;
+
+    transition:.2s;
+
+    pointer-events:none;
+}
+
+.tarjeta.coronada .corona{
+    opacity:1;
+}
+
+.gustambito-img {
     width:50%;
-     margin: 5px auto;
-    display: block;
+    margin:5px auto;
+    display:block;
 
     filter: grayscale(100%);
-    opacity: .35;
+    opacity:.35;
 
-    transition: .25s;
+    transition:.25s;
 }
 
 .tarjeta.activa {
     border: 2px solid #4CAF50;
 }
 
-.tarjeta.activa img {
+.tarjeta.activa .gustambito-img {
     filter: grayscale(0%);
     opacity: 1;
 }
@@ -108,11 +131,6 @@ body {
     text-align: center;
 }
 
-.tarjeta.activa img {
-    filter: grayscale(0%);
-    opacity: 1;
-}
-
 
 .grid-tarjetas{
     display:grid;
@@ -121,9 +139,9 @@ body {
 }
 
 
-////////////////////////////
-///*CONTADOR DE PROGRESO*///
-////////////////////////////
+/*//////////////////////////*/
+/*///CONTADOR DE PROGRESO///*/
+/*//////////////////////////*/
 .progreso{
     margin-bottom:30px;
 }
@@ -152,4 +170,28 @@ body {
 }
 
 
-/////////////////////////////
+/*///////////////////////////*/
+
+
+.tarjeta.coronada{
+
+    border:2px solid gold;
+
+    box-shadow:0 0 12px gold;
+
+}
+
+/* Bloquear selección de texto */
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Evitar arrastrar imágenes */
+img {
+    -webkit-user-drag: none;
+    user-drag: none;
+    pointer-events: none;
+}
