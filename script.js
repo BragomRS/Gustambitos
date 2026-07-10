@@ -435,15 +435,136 @@ const gustambitos = [
     categoria: 4
 },
 */
+{
+    id: 70,
+    nombre: "Espíritu de Agua Holográfico",
+    imagen: "assets/images/holofoil/1.png",
+    categoria: 5
+},
+{
+    id: 71,
+    nombre: "Próximamente",
+    imagen: "assets/images/ejemplo.png",
+    categoria: 5
+},
+{
+    id: 72,
+    nombre: "Espíritu de Fuego Holográfico",
+    imagen: "assets/images/holofoil/3.png",
+    categoria: 5
+},
 
-/* Para futuras categorias */
+/*
+{
+    id: 73,
+    nombre: "Espíritu de Aire Holográfico",
+    imagen: "assets/images/holofoil/4.png",
+    categoria: 5
+},
+*/
+
+
+{
+    id: 74,
+    nombre: "Espíritu Patito Holográfico",
+    imagen: "assets/images/holofoil/6.png",
+    categoria: 5
+},
+
+{
+    id: 75,
+    nombre: "Espíritu Fantasma Holográfico",
+    imagen: "assets/images/holofoil/8.png",
+    categoria: 5
+},
+{
+    id: 76,
+    nombre: "Próximamente",
+    imagen: "assets/images/ejemplo.png",
+    categoria: 5
+},
+{
+    id: 77,
+    nombre: "Próximamente",
+    imagen: "assets/images/ejemplo.png",
+    categoria: 5
+},
+{
+    id: 78,
+    nombre: "Próximamente",
+    imagen: "assets/images/ejemplo.png",
+    categoria: 5
+},
+{
+    id: 79,
+    nombre: "Espíritu Monarca Holográfico",
+    imagen: "assets/images/holofoil/9.png",
+    categoria: 5
+},
+
+{
+    id: 80,
+    nombre: "Próximamente",
+    imagen: "assets/images/ejemplo.png",
+    categoria: 5
+},
+{
+    id: 81,
+    nombre: "Próximamente",
+    imagen: "assets/images/ejemplo.png",
+    categoria: 5
+},
+{
+    id: 82,
+    nombre: "Espíritu Goleador Holográfico",
+    imagen: "assets/images/holofoil/10.png",
+    categoria: 5
+},
+{
+    id: 83,
+    nombre: "Próximamente",
+    imagen: "assets/images/ejemplo.png",
+    categoria: 5
+},
+
+
+/*
+{
+    id: 84,
+    nombre: "Espíritu de los Siete Holográfico",
+    imagen: "assets/images/holofoil/15.png",
+    categoria: 5
+},
+*/
+
+{
+    id: 85,
+    nombre: "Próximamente",
+    imagen: "assets/images/ejemplo.png",
+    categoria: 5
+},
+{
+    id: 86,
+    nombre: "Próximamente",
+    imagen: "assets/images/ejemplo.png",
+    categoria: 5
+},
+{
+    id: 87,
+    nombre: "Próximamente",
+    imagen: "assets/images/ejemplo.png",
+    categoria: 5
+}
+/* Para futuras categorias 
 
 {
     id: 999,
     nombre: "Próximamente",
     imagen: "assets/images/ejemplo.png",
     categoria: 5
-}
+}*/
+
+
 ];
 
 
