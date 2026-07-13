@@ -423,3 +423,21 @@ function actualizarProgreso() {
     barraProgreso.style.width = `${progreso}%`;
 
 }
+
+document.addEventListener("contextmenu", (e) => {
+
+    e.preventDefault();
+
+});
+
+document.addEventListener("dragstart", (e) => {
+
+    e.preventDefault();
+
+});
+
+document.addEventListener("selectstart", (e) => {
+
+    e.preventDefault();
+
+});
