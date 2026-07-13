@@ -260,6 +260,10 @@ body {
 
     display:block;
 
+    filter:grayscale(100%) brightness(.75);
+
+    transition:filter .25s ease;
+
     user-select:none;
 
     pointer-events:none;
@@ -286,8 +290,17 @@ body {
         0 0 20px rgba(255,215,0,.7);
 
 }
+.tarjeta.activa .imagen-gustambito{
 
+    filter:none;
 
+}
+
+.tarjeta.coronada .imagen-gustambito{
+
+    filter:none;
+
+}
 
 
 .corona{
