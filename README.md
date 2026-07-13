@@ -1,2 +1,2 @@
-# Gustambitos
-Proyecto web de Gustambitos
+# GustambitosV2
+GustambitosV2

@@ -8,59 +8,46 @@
     <title>Gustambitos</title>
 
     <link rel="stylesheet" href="styles.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <header class="header">
         <h1>Gustambitos</h1>
-        <p>Selecciona los Gustambitos que has conseguido.</p>
+        <p>Colección de Gustambitos</p>
     </header>
-    
-<main class="contenedor">
 
-    <section class="progreso">
+    <main class="contenedor">
 
-        <div class="texto-progreso">
-            <span id="contador">0 / 0</span>
-            <span id="porcentaje">0%</span>
-        </div>
+        <!-- Barra de progreso -->
+        <section class="progreso">
 
-        <div class="barra">
-            <div id="barra-progreso" class="barra-progreso"></div>
-        </div>
+            <div class="texto-progreso">
+                <span id="contador">0 / 0</span>
+                <span id="porcentaje">0%</span>
+            </div>
 
-    </section>
+            <div class="barra">
+                <div id="barra-progreso" class="barra-progreso"></div>
+            </div>
 
-    <section class="columnas">
+        </section>
 
-    <div class="columna">
-        <h2>Base</h2>
-        <div id="categoria1" class="grid-tarjetas"></div>
-    </div>
+        <!-- Aquí se construirá toda la tabla -->
+        <section id="album" class="album">
 
-    <div class="columna">
-        <h2>Oro</h2>
-        <div id="categoria2" class="grid-tarjetas"></div>
-    </div>
+        </section>
 
-    <div class="columna">
-        <h2>Gominola</h2>
-        <div id="categoria3" class="grid-tarjetas"></div>
-    </div>
+    </main>
 
-    <div class="columna">
-    <h2>Galaxy</h2>
-    <div id="categoria4" class="grid-tarjetas"></div>
-</div>
-
-<div class="columna">
-    <h2>Holografico</h2>
-    <div id="categoria5" class="grid-tarjetas"></div>
-</div>
-</section>
-
-</main>
+    <script src="data/familias.js"></script>
+    <script src="data/categorias.js"></script>
+    <script src="data/gustambitos.js"></script>
 
     <script src="script.js"></script>
 
