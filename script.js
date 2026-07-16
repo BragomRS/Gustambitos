@@ -374,12 +374,14 @@ function actualizarVisualTarjeta(tarjeta){
     if(estado === ESTADOS.ACTIVO){
 
         tarjeta.classList.add("activa");
+        reproducirEfecto(tarjeta);
 
     }
 
     if(estado === ESTADOS.CORONADO){
 
         tarjeta.classList.add("coronada");
+        reproducirEfecto(tarjeta);
 
     }
 
@@ -499,5 +501,18 @@ cristal.style.top = (margen + Math.random() * (100 - margen * 2)) + "%";
     }
 
     return azucar;
+
+}
+
+
+function reproducirEfecto(tarjeta){
+
+    tarjeta.classList.add("animando");
+
+    setTimeout(()=>{
+
+        tarjeta.classList.remove("animando");
+
+    },2400);
 
 }

@@ -485,7 +485,9 @@ body{
         0 0 6px #7dd3ff,
         0 0 10px #7dd3ff;
 
-    animation:parpadeo 6s ease-in-out infinite;
+        animation:parpadeo .8s ease-in-out 3;
+
+    animation-play-state:paused;
 
 }
 
@@ -586,7 +588,9 @@ body{
     box-shadow:
         0 0 3px rgba(255, 255, 255, 0.642);
 
-    animation:brilloAzucar 6s ease-in-out infinite;
+    animation:brilloAzucar .8s ease-in-out 3;
+
+animation-play-state:paused;
 
 }
 
@@ -603,5 +607,17 @@ body{
         opacity:1;
 
     }
+
+}
+
+.tarjeta.animando .estrella{
+
+    animation-play-state:running;
+
+}
+
+.tarjeta.animando .cristal{
+
+    animation-play-state:running;
 
 }
