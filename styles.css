@@ -414,3 +414,41 @@ body{
 }
 
 
+.tarjeta.categoria-holografico::after{
+
+    content:"";
+
+    position:absolute;
+
+    top:-50%;
+    left:-60%;
+
+    width:40%;
+    height:200%;
+
+    background:linear-gradient(
+        90deg,
+        transparent,
+        rgba(255,255,255,.28),
+        transparent
+    );
+
+    transform:rotate(20deg);
+
+    animation:brillo-holo 4s linear infinite;
+
+    pointer-events:none;
+
+}
+
+@keyframes brillo-holo{
+
+    0%{
+        left:-60%;
+    }
+
+    100%{
+        left:120%;
+    }
+
+}
