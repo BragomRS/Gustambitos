@@ -349,7 +349,7 @@ body {
 
 .tarjeta.categoria-oro{
 
-    background:linear-gradient(180deg,#7a5d00,#d4af37);
+    background:linear-gradient(180deg,#5c4500,#9c7a1f);
 
 }
 
@@ -361,20 +361,26 @@ body {
 
 .tarjeta.categoria-galaxy{
 
-    background:linear-gradient(180deg,#0f1c4d,#512da8);
+    background:linear-gradient(
+        180deg,
+        #0a1638,
+        #3a257c
+    );
 
 }
 
 .tarjeta.categoria-holografico{
 
     background:linear-gradient(
-        135deg,
-        #7ee8fa,
-        #80ffdb,
-        #ffd166,
-        #ff7bcb,
-        #9b5de5
+        145deg,
+        #4b9dac,
+        #4ba58d,
+        #b3923f,
+        #b64d8c,
+        #6d45b2
     );
+
+}
 
 
 
@@ -409,3 +415,5 @@ body{
     -webkit-user-select:none;
 
 }
+
+
