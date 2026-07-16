@@ -216,7 +216,9 @@ body {
 
 
 .contenido-tarjeta{
+    position:relative;
 
+    z-index:10;
     width:100%;
 
     height:100%;
@@ -539,6 +541,60 @@ body{
         opacity:1;
 
         transform:scale(1.3);
+
+    }
+
+}
+
+
+
+.azucar{
+
+    position: absolute;
+    inset: 0;
+
+    pointer-events: none;
+
+  
+
+    z-index:5;
+
+
+
+}
+
+
+.cristal{
+
+    position:absolute;
+
+    width:1px;
+    height:1px;
+
+    border-radius:50%;
+
+    background:#ffffff;
+
+    opacity:.35;
+
+    box-shadow:
+        0 0 3px rgba(255, 255, 255, 0.642);
+
+    animation:brilloAzucar 6s ease-in-out infinite;
+
+}
+
+@keyframes brilloAzucar{
+
+    0%,100%{
+
+        opacity:.2;
+
+    }
+
+    50%{
+
+        opacity:1;
 
     }
 

@@ -294,7 +294,13 @@ function crearTarjeta(gustambito) {
 
     tarjeta.appendChild(contenido);
 
-    if (gustambito.categoria === "galaxy") {
+    if(gustambito.categoria === "gominola"){
+
+        tarjeta.appendChild(crearAzucar());
+
+    }
+
+    if(gustambito.categoria === "galaxy"){
 
         tarjeta.appendChild(crearEstrellasGalaxy());
 
@@ -466,5 +472,32 @@ function crearEstrellasGalaxy() {
     }
 
     return estrellas;
+
+}
+
+function crearAzucar() {
+
+    const azucar = document.createElement("div");
+
+    azucar.className = "azucar";
+
+    for(let i = 0; i < 200; i++){
+
+        const cristal = document.createElement("span");
+
+        cristal.className = "cristal";
+
+const margen = 2;
+
+cristal.style.left = (margen + Math.random() * (100 - margen * 2)) + "%";
+cristal.style.top = (margen + Math.random() * (100 - margen * 2)) + "%";
+
+        cristal.style.animationDelay = (Math.random() * 5) + "s";
+
+        azucar.appendChild(cristal);
+
+    }
+
+    return azucar;
 
 }
