@@ -294,6 +294,12 @@ function crearTarjeta(gustambito) {
 
     tarjeta.appendChild(contenido);
 
+    if (gustambito.categoria === "galaxy") {
+
+        tarjeta.appendChild(crearEstrellasGalaxy());
+
+    }
+
     tarjeta.appendChild(crearCorona());
     
 
@@ -441,3 +447,24 @@ document.addEventListener("selectstart", (e) => {
     e.preventDefault();
 
 });
+
+
+function crearEstrellasGalaxy() {
+
+    const estrellas = document.createElement("div");
+
+    estrellas.className = "estrellas-galaxy";
+
+    for (let i = 1; i <= 5; i++) {
+
+        const estrella = document.createElement("span");
+
+        estrella.className = `estrella estrella${i}`;
+
+        estrellas.appendChild(estrella);
+
+    }
+
+    return estrellas;
+
+}
