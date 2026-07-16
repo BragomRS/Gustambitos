@@ -473,19 +473,25 @@ body{
 
     position:absolute;
 
-    width:4px;
+    width:auto;
+    height:auto;
 
-    height:4px;
+    color:#ffffff;
 
-    border-radius:50%;
+    font-size:6px;
 
-    background:white;
+    text-shadow:
+        0 0 3px #ffffff,
+        0 0 6px #7dd3ff,
+        0 0 10px #7dd3ff;
 
-    box-shadow:
-        0 0 3px white,
-        0 0 6px #7dd3ff;
+    animation:parpadeo 6s ease-in-out infinite;
 
-    animation:parpadeo 3s infinite ease-in-out;
+}
+
+.estrella::before{
+
+    content:"✦";
 
 }
 
