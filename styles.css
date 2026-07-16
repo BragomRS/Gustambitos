@@ -184,11 +184,7 @@ body {
 
 }
 
-.esquina{
 
-    min-height:40px;
-
-}
 
 /*==============================
     TARJETAS VACÍAS
@@ -210,7 +206,10 @@ body {
 
     overflow:hidden;
 
-    transition:all .1s ease;
+    transition:
+    border-color .1s,
+    box-shadow .1s,
+    transform .1s;
 
 }
 
@@ -239,14 +238,7 @@ body {
 
 }
 
-/*==============================
-    encabezado
-==============================*/
-.encabezado{
 
-    margin-bottom:20px;
-
-}
 
 
 /*==============================
@@ -269,6 +261,9 @@ body {
     user-select:none;
 
     pointer-events:none;
+
+    -webkit-user-drag:none;
+-webkit-user-select:none;
 
 }
 
@@ -401,19 +396,7 @@ body{
 }
 
 
-.imagen-gustambito{
 
-    width:100%;
-    height:100%;
-    object-fit:contain;
-
-    pointer-events:none;
-
-    user-select:none;
-    -webkit-user-drag:none;
-    -webkit-user-select:none;
-
-}
 
 
 .tarjeta.categoria-holografico::after{
@@ -437,7 +420,9 @@ body{
 
     transform:rotate(20deg);
 
-    animation:brillo-holo 4s linear infinite;
+    animation:brillo-holo 1.8s linear 3;
+
+    animation-play-state:paused;
 
     pointer-events:none;
 
@@ -617,6 +602,12 @@ animation-play-state:paused;
 }
 
 .tarjeta.animando .cristal{
+
+    animation-play-state:running;
+
+}
+
+.tarjeta.animando.categoria-holografico::after{
 
     animation-play-state:running;
 
