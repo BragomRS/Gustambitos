@@ -16,6 +16,11 @@ const familias = [
         orden: 3
     },
     {
+        id: "aire",
+        nombre: "Aire",
+        orden: 3.1
+    },
+    {
         id: "patito",
         nombre: "Patito",
         orden: 4

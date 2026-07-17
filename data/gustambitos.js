@@ -545,11 +545,11 @@ const gustambitos = [
     categoria: "base",
     nombre: "Maní Quemado",
     imagen: "assets/images/base/18.png"
-}
+},
 
 /* Para futuras activaciones de Gustambitos */
 
-/*
+
 {
     id: 4,
     familia: "aire",
@@ -584,8 +584,8 @@ const gustambitos = [
     categoria: "holografico",
     nombre: "Espíritu de Aire Holográfico",
     imagen: "assets/images/holofoil/4.png"
-},
-*/
+}
+
 
 /*
 {
