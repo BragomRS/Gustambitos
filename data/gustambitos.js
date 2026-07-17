@@ -622,6 +622,20 @@ const gustambitos = [
     categoria: "holografico",
     nombre: "Espíritu de los Siete Holográfico",
     imagen: "assets/images/holofoil/15.png"
+},
+{
+    id: 85,
+    familia: "vini",
+    categoria: "base",
+    nombre: "Espíritu Vini Jr",
+    imagen: "assets/images/base/vini.png"
+},
+{
+    id: 86,
+    familia: "pollo",
+    categoria: "base",
+    nombre: "Espíritu Pollo FNCS",
+    imagen: "assets/images/base/pollo.png"
 }
 
 ];

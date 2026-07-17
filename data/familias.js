@@ -90,6 +90,16 @@ const familias = [
         id: "maniquemado",
         nombre: "Maní Quemado",
         orden: 16
+    },
+    {
+        id: "vini",
+        nombre: "Vini Jr",
+        orden: 17
+    },
+    {
+        id: "pollo",
+        nombre: "Pollo FNCS",
+        orden: 18
     }
 
 ];
