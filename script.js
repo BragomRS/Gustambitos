@@ -78,6 +78,8 @@ function cargarEstado() {
 
 document.addEventListener("DOMContentLoaded", iniciar);
 
+
+
 function iniciar() {
 
     console.clear();
@@ -95,16 +97,24 @@ function iniciar() {
     // Crear índice de búsqueda
     crearIndice();
 
+    // Calcular categorías visibles
+    const categoriasVisibles = categorias.filter(c => c.visible);
+
+    document.documentElement.style.setProperty(
+        "--columnas-categorias",
+        categoriasVisibles.length
+    );
+
     // Dibujar el álbum
     dibujarAlbum();
 
-    //Carga informacion guardada en cache sobre data storage
+    // Carga informacion guardada en cache sobre data storage
     cargarEstado();
 
-    //Para la barra de estado
+    // Para la barra de estado
     actualizarProgreso();
 
-    //Registra eventos del click
+    // Registra eventos del click
     registrarEventos();
 
 }
@@ -202,7 +212,9 @@ function crearEncabezado() {
     esquina.className = "celda esquina";
     fila.appendChild(esquina);
 
-    categorias.forEach(categoria => {
+    categorias
+    .filter(c => c.visible)
+    .forEach(categoria => {
 
         const celda = document.createElement("div");
 
@@ -235,24 +247,25 @@ function crearFilas() {
 
         fila.appendChild(nombre);
 
-        categorias.forEach(categoria => {
+categorias
+    .filter(c => c.visible)
+    .forEach(categoria => {
 
-            const celda = document.createElement("div");
+        const celda = document.createElement("div");
 
-            celda.className = "celda";
+        celda.className = "celda";
 
-            // Buscar el Gustambito correspondiente
-            const clave = `${familia.id}-${categoria.id}`;
+        const clave = `${familia.id}-${categoria.id}`;
 
-            const gustambito = indice[clave];
+        const gustambito = indice[clave];
 
-            const tarjeta = crearTarjeta(gustambito);
+        const tarjeta = crearTarjeta(gustambito);
 
-            celda.appendChild(tarjeta);
+        celda.appendChild(tarjeta);
 
-            fila.appendChild(celda);
+        fila.appendChild(celda);
 
-        });
+    });
 
         album.appendChild(fila);
 

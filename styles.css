@@ -130,7 +130,7 @@ body {
 
     display:grid;
 
-    grid-template-columns:100px repeat(5,140px);
+    grid-template-columns:100px repeat(var(--columnas-categorias),140px);
 
     gap:10px;
 
