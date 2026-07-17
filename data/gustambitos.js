@@ -636,6 +636,42 @@ const gustambitos = [
     categoria: "base",
     nombre: "Espíritu Pollo FNCS",
     imagen: "assets/images/base/pollo.png"
+},
+
+{
+    id: 15,
+    familia: "batman",
+    categoria: "base",
+    nombre: "Batman",
+    imagen: "assets/images/base/batman.png"
+},
+{
+    id: 33,
+    familia: "batman",
+    categoria: "oro",
+    nombre: "Batman Dorado",
+    imagen: "assets/images/gold/batman.png"
+},
+{
+    id: 50,
+    familia: "batman",
+    categoria: "gominola",
+    nombre: "Batman de Golosina",
+    imagen: "assets/images/gummy/batman.png"
+},
+{
+    id: 67,
+    familia: "batman",
+    categoria: "galaxy",
+    nombre: "Batman Galáctico",
+    imagen: "assets/images/galaxy/batman.png"
+},
+{
+    id: 84,
+    familia: "batman",
+    categoria: "holografico",
+    nombre: "Batman Holográfico",
+    imagen: "assets/images/holofoil/batman.png"
 }
 
 ];
