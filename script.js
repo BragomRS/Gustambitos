@@ -32,6 +32,7 @@ const ESTADOS = {
 };
 
 
+
 // ================================
 // ALMACENAMIENTO
 // ================================
@@ -295,6 +296,7 @@ function crearTarjeta(gustambito) {
     tarjeta.dataset.categoria = gustambito.categoria;
     tarjeta.dataset.nombre = gustambito.nombre;
     tarjeta.dataset.estado = ESTADOS.INACTIVO;
+    tarjeta.dataset.disponibilidad = gustambito.disponibilidad;
 
     // Clase según categoría
     tarjeta.classList.add(`categoria-${gustambito.categoria}`);
@@ -347,6 +349,12 @@ function crearImagen(gustambito) {
 // ================================
 
 function cambiarEstadoTarjeta(tarjeta){
+
+    if (
+    tarjeta.dataset.disponibilidad !== DISPONIBILIDAD.DISPONIBLE
+) {
+    return;
+}
 
     let estado = Number(tarjeta.dataset.estado);
 
@@ -421,7 +429,10 @@ function crearCorona() {
 
 function actualizarProgreso() {
 
-    const tarjetas = document.querySelectorAll(".tarjeta[data-id]");
+    // Solo tarjetas disponibles
+    const tarjetas = document.querySelectorAll(
+        '.tarjeta[data-id][data-disponibilidad="disponible"]'
+    );
 
     const total = tarjetas.length;
 
