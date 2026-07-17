@@ -584,10 +584,10 @@ const gustambitos = [
     categoria: "holografico",
     nombre: "Espíritu de Aire Holográfico",
     imagen: "assets/images/holofoil/4.png"
-}
+},
 
 
-/*
+
 {
     id: 15,
     familia: "siete",
@@ -622,7 +622,6 @@ const gustambitos = [
     categoria: "holografico",
     nombre: "Espíritu de los Siete Holográfico",
     imagen: "assets/images/holofoil/15.png"
-},
-*/
+}
 
 ];

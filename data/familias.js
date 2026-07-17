@@ -80,6 +80,12 @@ const familias = [
         nombre: "Siniestro",
         orden: 15
     },
+ {
+        id: "siete",
+        nombre: "Siete",
+        orden: 15.1
+    },
+
     {
         id: "maniquemado",
         nombre: "Maní Quemado",
