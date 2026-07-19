@@ -507,7 +507,7 @@ function crearAzucar() {
 
     azucar.className = "azucar";
 
-    for(let i = 0; i < 200; i++){
+    for(let i = 0; i < 50; i++){
 
         const cristal = document.createElement("span");
 
