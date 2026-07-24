@@ -621,28 +621,31 @@ animation-play-state:paused;
         linear-gradient(rgba(35,0,60,.35), rgba(35,0,60,.35)),
         url("assets/images/cubo/fondocubo.png");
 
-    background-position:center;
-
     background-size: 220%;
 
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
 
-    
-
-   // box-shadow:0 0 8px rgba(177,92,255,.35);
+    background-position: center, center;
 
 }
-
 
 @keyframes moverCubo{
+
     from{
-        background-position:center top;
+        background-position: center, center top;
     }
+
     to{
-        background-position:center bottom;
+        background-position: center, center bottom;
     }
+
 }
 
-.tarjeta.activa.categoria-cubo{
-    animation:moverCubo 15s linear infinite;
+.tarjeta.activa.categoria-cubo,
+.tarjeta.coronado.categoria-cubo{
+    animation-name: moverCubo;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
