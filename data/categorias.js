@@ -32,14 +32,14 @@ const categorias = [
     {
         id: "gema",
         nombre: "Gema",
-        orden: 6,
+        orden: 7,
         visible: false
     },
     {
         id: "cubo",
         nombre: "Cubo",
-        orden: 7,
-        visible: false
+        orden: 6,
+        visible: true
     }
 ];
 

@@ -883,6 +883,72 @@ const gustambitos = [
     nombre: "Batman Holográfico",
     imagen: "assets/images/holofoil/batman.png",
     disponibilidad: DISPONIBILIDAD.DISPONIBLE
-}
+}, 
+/* ======== CUBO ======== */
+
+{
+    id: 212,
+    familia: "tierra",
+    categoria: "cubo",
+    nombre: "Espíritu de Tierra Cubo",
+    imagen: "assets/images/cubo/tierra.png",
+    disponibilidad: DISPONIBILIDAD.DISPONIBLE
+},
+{
+    id: 213,
+    familia: "fuego",
+    categoria: "cubo",
+    nombre: "Espíritu de Fuego Cubo",
+    imagen: "assets/images/cubo/fuego.png",
+    disponibilidad: DISPONIBILIDAD.DISPONIBLE
+},
+{
+    id: 214,
+    familia: "dormilon",
+    categoria: "cubo",
+    nombre: "Espíritu Dormilón Cubo",
+    imagen: "assets/images/cubo/dormilon.png",
+    disponibilidad: DISPONIBILIDAD.DISPONIBLE
+},
+{
+    id: 215,
+    familia: "punk",
+    categoria: "cubo",
+    nombre: "Espíritu Punk Cubo",
+    imagen: "assets/images/cubo/punk.png",
+    disponibilidad: DISPONIBILIDAD.DISPONIBLE
+},
+{
+    id: 216,
+    familia: "palitodepez",
+    categoria: "cubo",
+    nombre: "Espíritu Palito de Pez Cubo",
+    imagen: "assets/images/cubo/palitodepez.png",
+    disponibilidad: DISPONIBILIDAD.DISPONIBLE
+},
+{
+    id: 217,
+    familia: "jefe",
+    categoria: "cubo",
+    nombre: "Espíritu Jefe Cubo",
+    imagen: "assets/images/cubo/jefe.png",
+    disponibilidad: DISPONIBILIDAD.DISPONIBLE
+},
+{
+    id: 218,
+    familia: "siniestro",
+    categoria: "cubo",
+    nombre: "Espíritu Siniestro Cubo",
+    imagen: "assets/images/cubo/siniestro.png",
+    disponibilidad: DISPONIBILIDAD.DISPONIBLE
+},
+{
+    id: 219,
+    familia: "batman",
+    categoria: "cubo",
+    nombre: "Espíritu Batman Cubo",
+    imagen: "assets/images/cubo/batman.png",
+    disponibilidad: DISPONIBILIDAD.DISPONIBLE
+},
 
 ];

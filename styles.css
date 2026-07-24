@@ -612,3 +612,37 @@ animation-play-state:paused;
     animation-play-state:running;
 
 }
+
+
+
+.tarjeta.categoria-cubo{
+
+    background:
+        linear-gradient(rgba(35,0,60,.35), rgba(35,0,60,.35)),
+        url("assets/images/cubo/fondocubo.png");
+
+    background-position:center;
+
+    background-size: 220%;
+
+    background-repeat:no-repeat;
+
+    
+
+   // box-shadow:0 0 8px rgba(177,92,255,.35);
+
+}
+
+
+@keyframes moverCubo{
+    from{
+        background-position:center top;
+    }
+    to{
+        background-position:center bottom;
+    }
+}
+
+.tarjeta.activa.categoria-cubo{
+    animation:moverCubo 15s linear infinite;
+}
