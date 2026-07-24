@@ -87,14 +87,14 @@ const gustambitos = [
     imagen: "assets/images/galaxy/2.png",
     disponibilidad: DISPONIBILIDAD.DISPONIBLE
 },
-{
+/*{
     id: 85,
     familia: "tierra",
     categoria: "holografico",
     nombre: "Próximamente",
     imagen: "assets/images/ejemplo.png",
     disponibilidad: DISPONIBILIDAD.PROXIMAMENTE
-},
+},*/
 
 {
     id: 3,
@@ -250,14 +250,14 @@ const gustambitos = [
     imagen: "assets/images/galaxy/13.png",
     disponibilidad: DISPONIBILIDAD.DISPONIBLE
 },
-{
+/*{
     id: 71,
     familia: "dormilon",
     categoria: "holografico",
     nombre: "Próximamente",
     imagen: "assets/images/ejemplo.png",
     disponibilidad: DISPONIBILIDAD.PROXIMAMENTE
-},
+},*/
 
 {
     id: 7,
@@ -291,14 +291,14 @@ const gustambitos = [
     imagen: "assets/images/galaxy/7.png",
     disponibilidad: DISPONIBILIDAD.DISPONIBLE
 },
-{
+/*{
     id: 76,
     familia: "demoniaco",
     categoria: "holografico",
     nombre: "Próximamente",
     imagen: "assets/images/ejemplo.png",
     disponibilidad: DISPONIBILIDAD.PROXIMAMENTE
-},
+},*/
 
 {
     id: 12,
@@ -332,14 +332,14 @@ const gustambitos = [
     imagen: "assets/images/galaxy/12.png",
     disponibilidad: DISPONIBILIDAD.DISPONIBLE
 },
-{
+/*{
     id: 77,
     familia: "punk",
     categoria: "holografico",
     nombre: "Próximamente",
     imagen: "assets/images/ejemplo.png",
     disponibilidad: DISPONIBILIDAD.PROXIMAMENTE
-},
+},*/
 
 {
     id: 9,
@@ -414,14 +414,14 @@ const gustambitos = [
     imagen: "assets/images/galaxy/16.png",
     disponibilidad: DISPONIBILIDAD.DISPONIBLE
 },
-{
+/*{
     id: 78,
     familia: "puntocero",
     categoria: "holografico",
     nombre: "Próximamente",
     imagen: "assets/images/ejemplo.png",
     disponibilidad: DISPONIBILIDAD.PROXIMAMENTE
-},
+},*/
 
 {
     id: 5,
@@ -455,14 +455,14 @@ const gustambitos = [
     imagen: "assets/images/galaxy/5.png",
     disponibilidad: DISPONIBILIDAD.DISPONIBLE
 },
-{
+/*{
     id: 80,
     familia: "palitodepez",
     categoria: "holografico",
     nombre: "Próximamente",
     imagen: "assets/images/ejemplo.png",
     disponibilidad: DISPONIBILIDAD.PROXIMAMENTE
-},
+},*/
 
 {
     id: 10,
@@ -537,14 +537,14 @@ const gustambitos = [
     imagen: "assets/images/galaxy/11.png",
     disponibilidad: DISPONIBILIDAD.DISPONIBLE
 },
-{
+/*{
     id: 81,
     familia: "aura",
     categoria: "holografico",
     nombre: "Próximamente",
     imagen: "assets/images/ejemplo.png",
     disponibilidad: DISPONIBILIDAD.PROXIMAMENTE
-},
+},*/
 
 {
     id: 14,
@@ -578,14 +578,14 @@ const gustambitos = [
     imagen: "assets/images/galaxy/14.png",
     disponibilidad: DISPONIBILIDAD.DISPONIBLE
 },
-{
+/*{
     id: 83,
     familia: "jefe",
     categoria: "holografico",
     nombre: "Próximamente",
     imagen: "assets/images/ejemplo.png",
     disponibilidad: DISPONIBILIDAD.PROXIMAMENTE
-},
+},*/
 
 {
     id: 17,
@@ -619,14 +619,14 @@ const gustambitos = [
     imagen: "assets/images/galaxy/17.png",
     disponibilidad: DISPONIBILIDAD.DISPONIBLE
 },
-{
+/*{
     id: 85,
     familia: "siniestro",
     categoria: "holografico",
     nombre: "Próximamente",
     imagen: "assets/images/ejemplo.png",
     disponibilidad: DISPONIBILIDAD.PROXIMAMENTE
-},
+},*/
 
 {
     id: 18,
@@ -742,7 +742,7 @@ const gustambitos = [
 
 /* Variantes futuras de Maní Quemado */
 
-{
+/*{
     id: 200,
     familia: "maniquemado",
     categoria: "oro",
@@ -773,11 +773,11 @@ const gustambitos = [
     nombre: "Próximamente",
     imagen: "assets/images/x.png",
     disponibilidad: DISPONIBILIDAD.NO_EXISTE
-},
+},*/
 
 /* Variantes futuras de Vini */
 
-{
+/*{
     id: 204,
     familia: "vini",
     categoria: "oro",
@@ -808,11 +808,11 @@ const gustambitos = [
     nombre: "Próximamente",
     imagen: "assets/images/x.png",
     disponibilidad: DISPONIBILIDAD.NO_EXISTE
-},
+},*/
 
 /* Variantes futuras de Pollo */
 
-{
+/*{
     id: 208,
     familia: "pollo",
     categoria: "oro",
@@ -843,7 +843,7 @@ const gustambitos = [
     nombre: "Próximamente",
     imagen: "assets/images/x.png",
     disponibilidad: DISPONIBILIDAD.NO_EXISTE
-},
+},*/
 {
     id: 15,
     familia: "batman",
